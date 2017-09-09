@@ -1,0 +1,272 @@
+2017-08-26 10:10:08,157  INFO App:48 - Starting App on 0M4N203YXTY2XHI with PID 5668 (D:\yihecloud\chyUITestData\target\classes started by Administrator in D:\yihecloud\chyUITestData)
+ 2017-08-26 10:10:08,162  INFO App:661 - No active profile set, falling back to default profiles: default
+ 2017-08-26 10:10:08,239  INFO AnnotationConfigEmbeddedWebApplicationContext:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4135c3b: startup date [Sat Aug 26 10:10:08 CST 2017]; root of context hierarchy
+ 2017-08-26 10:10:09,089  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+ 2017-08-26 10:10:10,643  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4f08f9e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2017-08-26 10:10:11,492  INFO TomcatEmbeddedServletContainer:87 - Tomcat initialized with port(s): 8090 (http)
+ 2017-08-26 10:10:11,682  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 3447 ms
+ 2017-08-26 10:10:12,100  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2017-08-26 10:10:12,107  INFO FilterRegistrationBean:258 - Mapping filter: 'metricsFilter' to: [/*]
+ 2017-08-26 10:10:12,107  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2017-08-26 10:10:12,108  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2017-08-26 10:10:12,108  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2017-08-26 10:10:12,108  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2017-08-26 10:10:12,109  INFO FilterRegistrationBean:258 - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+ 2017-08-26 10:10:12,109  INFO FilterRegistrationBean:258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
+ 2017-08-26 10:10:13,580  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/dal/test],methods=[GET],produces=[application/json]}" onto public java.lang.String chy.ui.testdata.controller.UITestDataControl.getTestdata()
+ 2017-08-26 10:10:13,583  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/dal/update],methods=[PUT]}" onto public java.lang.String chy.ui.testdata.controller.UITestDataControl.updateTestdata(chy.ui.testdata.model.Chytestdata)
+ 2017-08-26 10:10:13,583  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/dal/delete],methods=[DELETE]}" onto public java.lang.String chy.ui.testdata.controller.UITestDataControl.deleteTestdata(int)
+ 2017-08-26 10:10:13,585  INFO RequestMappingHandlerMapping:543 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+ 2017-08-26 10:10:13,589  INFO RequestMappingHandlerMapping:543 - Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+ 2017-08-26 10:10:13,591  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+ 2017-08-26 10:10:13,592  INFO RequestMappingHandlerMapping:543 - Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+ 2017-08-26 10:10:13,600  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2017-08-26 10:10:13,601  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2017-08-26 10:10:14,011  INFO EndpointHandlerMapping:543 - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:10:14,013  INFO EndpointHandlerMapping:543 - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+ 2017-08-26 10:10:14,015  INFO EndpointHandlerMapping:543 - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:10:14,017  INFO EndpointHandlerMapping:543 - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+ 2017-08-26 10:10:14,018  INFO EndpointHandlerMapping:543 - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:10:14,020  INFO EndpointHandlerMapping:543 - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:10:14,024  INFO EndpointHandlerMapping:543 - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:10:14,026  INFO EndpointHandlerMapping:543 - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:10:14,028  INFO EndpointHandlerMapping:543 - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:10:14,029  INFO EndpointHandlerMapping:543 - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+ 2017-08-26 10:10:14,033  INFO EndpointHandlerMapping:543 - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:10:14,035  INFO EndpointHandlerMapping:543 - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+ 2017-08-26 10:10:14,036  INFO EndpointHandlerMapping:543 - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:10:14,318  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4135c3b: startup date [Sat Aug 26 10:10:08 CST 2017]; root of context hierarchy
+ 2017-08-26 10:10:14,399  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2017-08-26 10:10:14,399  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2017-08-26 10:10:14,454  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2017-08-26 10:10:15,053  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2017-08-26 10:10:15,055  INFO AnnotationMBeanExporter:912 - Bean with name 'dataSource' has been autodetected for JMX exposure
+ 2017-08-26 10:10:15,065  INFO AnnotationMBeanExporter:667 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+ 2017-08-26 10:10:15,068  INFO EndpointMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2017-08-26 10:10:15,073  INFO DefaultLifecycleProcessor:341 - Starting beans in phase 0
+ 2017-08-26 10:10:15,082  INFO EndpointMBeanExporter:674 - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+ 2017-08-26 10:10:15,114  INFO EndpointMBeanExporter:674 - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+ 2017-08-26 10:10:15,121  INFO EndpointMBeanExporter:674 - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+ 2017-08-26 10:10:15,126  INFO EndpointMBeanExporter:674 - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+ 2017-08-26 10:10:15,132  INFO EndpointMBeanExporter:674 - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+ 2017-08-26 10:10:15,137  INFO EndpointMBeanExporter:674 - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+ 2017-08-26 10:10:15,142  INFO EndpointMBeanExporter:674 - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+ 2017-08-26 10:10:15,147  INFO EndpointMBeanExporter:674 - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+ 2017-08-26 10:10:15,161  INFO EndpointMBeanExporter:674 - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+ 2017-08-26 10:10:15,166  INFO EndpointMBeanExporter:674 - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+ 2017-08-26 10:10:15,189  INFO DocumentationPluginsBootstrapper:84 - Context refreshed
+ 2017-08-26 10:10:15,229  INFO DocumentationPluginsBootstrapper:87 - Found 1 custom documentation plugin(s)
+ 2017-08-26 10:10:15,241  INFO ApiListingReferenceScanner:44 - Scanning for api listing references
+ 2017-08-26 10:10:15,570  INFO TomcatEmbeddedServletContainer:185 - Tomcat started on port(s): 8090 (http)
+ 2017-08-26 10:10:15,576  INFO App:57 - Started App in 8.03 seconds (JVM running for 8.514)
+ 2017-08-26 10:11:10,721  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+ 2017-08-26 10:11:10,743  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+ 2017-08-26 10:14:06,675  INFO DruidDataSource:669 - {dataSource-1} inited
+ 2017-08-26 10:38:36,343  INFO App:48 - Starting App on 0M4N203YXTY2XHI with PID 3976 (D:\yihecloud\chyUITestData\target\classes started by Administrator in D:\yihecloud\chyUITestData)
+ 2017-08-26 10:38:36,346  INFO App:661 - No active profile set, falling back to default profiles: default
+ 2017-08-26 10:38:36,454  INFO AnnotationConfigEmbeddedWebApplicationContext:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@457c9034: startup date [Sat Aug 26 10:38:36 CST 2017]; root of context hierarchy
+ 2017-08-26 10:38:36,826  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+ 2017-08-26 10:38:39,146  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$57d3b0b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2017-08-26 10:38:40,074  INFO TomcatEmbeddedServletContainer:87 - Tomcat initialized with port(s): 8090 (http)
+ 2017-08-26 10:38:40,251  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 3801 ms
+ 2017-08-26 10:38:40,822  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2017-08-26 10:38:40,830  INFO FilterRegistrationBean:258 - Mapping filter: 'metricsFilter' to: [/*]
+ 2017-08-26 10:38:40,831  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2017-08-26 10:38:40,831  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2017-08-26 10:38:40,832  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2017-08-26 10:38:40,832  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2017-08-26 10:38:40,833  INFO FilterRegistrationBean:258 - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+ 2017-08-26 10:38:40,833  INFO FilterRegistrationBean:258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
+ 2017-08-26 10:40:24,977  INFO App:48 - Starting App on 0M4N203YXTY2XHI with PID 5764 (D:\yihecloud\chyUITestData\target\classes started by Administrator in D:\yihecloud\chyUITestData)
+ 2017-08-26 10:40:24,980  INFO App:661 - No active profile set, falling back to default profiles: default
+ 2017-08-26 10:40:25,080  INFO AnnotationConfigEmbeddedWebApplicationContext:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@457c9034: startup date [Sat Aug 26 10:40:25 CST 2017]; root of context hierarchy
+ 2017-08-26 10:40:25,308  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+ 2017-08-26 10:40:28,043  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3c6409ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2017-08-26 10:40:29,026  INFO TomcatEmbeddedServletContainer:87 - Tomcat initialized with port(s): 8090 (http)
+ 2017-08-26 10:40:29,251  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 4176 ms
+ 2017-08-26 10:40:29,689  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2017-08-26 10:40:29,694  INFO FilterRegistrationBean:258 - Mapping filter: 'metricsFilter' to: [/*]
+ 2017-08-26 10:40:29,695  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2017-08-26 10:40:29,695  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2017-08-26 10:40:29,695  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2017-08-26 10:40:29,696  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2017-08-26 10:40:29,696  INFO FilterRegistrationBean:258 - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+ 2017-08-26 10:40:29,697  INFO FilterRegistrationBean:258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
+ 2017-08-26 10:43:00,494  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/dal/test],methods=[GET],produces=[application/json]}" onto public java.lang.String chy.ui.testdata.controller.UITestDataControl.getTestdata()
+ 2017-08-26 10:43:00,581  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/dal/update],methods=[PUT],consumes=[application/json],produces=[application/json]}" onto public java.lang.String chy.ui.testdata.controller.UITestDataControl.updateTestdata(chy.ui.testdata.model.Chytestdata)
+ 2017-08-26 10:43:00,600  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/dal/delete],methods=[DELETE]}" onto public java.lang.String chy.ui.testdata.controller.UITestDataControl.deleteTestdata(int)
+ 2017-08-26 10:43:00,646  INFO RequestMappingHandlerMapping:543 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+ 2017-08-26 10:43:01,010  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+ 2017-08-26 10:43:01,036  INFO RequestMappingHandlerMapping:543 - Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+ 2017-08-26 10:43:01,062  INFO RequestMappingHandlerMapping:543 - Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+ 2017-08-26 10:43:01,407  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2017-08-26 10:43:01,425  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2017-08-26 10:43:28,727  INFO EndpointHandlerMapping:543 - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:43:28,777  INFO EndpointHandlerMapping:543 - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:43:28,849  INFO EndpointHandlerMapping:543 - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+ 2017-08-26 10:43:28,862  INFO EndpointHandlerMapping:543 - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:43:28,912  INFO EndpointHandlerMapping:543 - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:43:29,073  INFO EndpointHandlerMapping:543 - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:43:29,121  INFO EndpointHandlerMapping:543 - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+ 2017-08-26 10:43:29,170  INFO EndpointHandlerMapping:543 - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:43:29,207  INFO EndpointHandlerMapping:543 - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+ 2017-08-26 10:43:29,264  INFO EndpointHandlerMapping:543 - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:43:29,490  INFO EndpointHandlerMapping:543 - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:43:29,560  INFO EndpointHandlerMapping:543 - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+ 2017-08-26 10:43:29,572  INFO EndpointHandlerMapping:543 - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:43:41,638  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@457c9034: startup date [Sat Aug 26 10:40:25 CST 2017]; root of context hierarchy
+ 2017-08-26 10:43:46,200  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2017-08-26 10:43:46,206  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2017-08-26 10:43:50,918  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2017-08-26 10:44:20,794  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2017-08-26 10:44:20,873  INFO AnnotationMBeanExporter:912 - Bean with name 'dataSource' has been autodetected for JMX exposure
+ 2017-08-26 10:44:21,896  INFO AnnotationMBeanExporter:667 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+ 2017-08-26 10:44:22,020  INFO EndpointMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2017-08-26 10:44:22,533  INFO DefaultLifecycleProcessor:341 - Starting beans in phase 0
+ 2017-08-26 10:44:22,928  INFO EndpointMBeanExporter:674 - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+ 2017-08-26 10:44:24,374  INFO EndpointMBeanExporter:674 - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+ 2017-08-26 10:44:24,892  INFO EndpointMBeanExporter:674 - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+ 2017-08-26 10:44:25,294  INFO EndpointMBeanExporter:674 - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+ 2017-08-26 10:44:25,696  INFO EndpointMBeanExporter:674 - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+ 2017-08-26 10:44:26,097  INFO EndpointMBeanExporter:674 - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+ 2017-08-26 10:44:26,498  INFO EndpointMBeanExporter:674 - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+ 2017-08-26 10:44:26,899  INFO EndpointMBeanExporter:674 - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+ 2017-08-26 10:44:27,589  INFO EndpointMBeanExporter:674 - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+ 2017-08-26 10:44:27,993  INFO EndpointMBeanExporter:674 - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+ 2017-08-26 10:44:30,170  INFO DocumentationPluginsBootstrapper:84 - Context refreshed
+ 2017-08-26 10:44:30,646  INFO DocumentationPluginsBootstrapper:87 - Found 1 custom documentation plugin(s)
+ 2017-08-26 10:44:31,144  INFO ApiListingReferenceScanner:44 - Scanning for api listing references
+ 2017-08-26 10:44:36,635  INFO TomcatEmbeddedServletContainer:185 - Tomcat started on port(s): 8090 (http)
+ 2017-08-26 10:44:37,159  INFO App:57 - Started App in 252.853 seconds (JVM running for 253.454)
+ 2017-08-26 10:44:47,285  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+ 2017-08-26 10:44:48,502  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 1211 ms
+ 2017-08-26 10:46:05,542  INFO DruidDataSource:669 - {dataSource-1} inited
+ 2017-08-26 10:56:37,676  INFO App:48 - Starting App on 0M4N203YXTY2XHI with PID 5556 (D:\yihecloud\chyUITestData\target\classes started by Administrator in D:\yihecloud\chyUITestData)
+ 2017-08-26 10:56:37,679  INFO App:661 - No active profile set, falling back to default profiles: default
+ 2017-08-26 10:56:37,765  INFO AnnotationConfigEmbeddedWebApplicationContext:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@457c9034: startup date [Sat Aug 26 10:56:37 CST 2017]; root of context hierarchy
+ 2017-08-26 10:56:38,128  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+ 2017-08-26 10:56:40,516  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9cd2b447] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2017-08-26 10:56:41,397  INFO TomcatEmbeddedServletContainer:87 - Tomcat initialized with port(s): 8090 (http)
+ 2017-08-26 10:56:41,595  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 3837 ms
+ 2017-08-26 10:56:42,165  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2017-08-26 10:56:42,174  INFO FilterRegistrationBean:258 - Mapping filter: 'metricsFilter' to: [/*]
+ 2017-08-26 10:56:42,175  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2017-08-26 10:56:42,175  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2017-08-26 10:56:42,176  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2017-08-26 10:56:42,176  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2017-08-26 10:56:42,177  INFO FilterRegistrationBean:258 - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+ 2017-08-26 10:56:42,177  INFO FilterRegistrationBean:258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
+ 2017-08-26 10:59:05,179  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/dal/test],methods=[GET],produces=[application/json]}" onto public java.lang.String chy.ui.testdata.controller.UITestDataControl.getTestdata()
+ 2017-08-26 10:59:05,264  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/dal/update],methods=[PUT],consumes=[application/json],produces=[application/json]}" onto public java.lang.String chy.ui.testdata.controller.UITestDataControl.updateTestdata(chy.ui.testdata.model.Chytestdata)
+ 2017-08-26 10:59:05,284  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/dal/delete/{id}],methods=[DELETE]}" onto public java.lang.String chy.ui.testdata.controller.UITestDataControl.deleteTestdata(int)
+ 2017-08-26 10:59:05,330  INFO RequestMappingHandlerMapping:543 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+ 2017-08-26 10:59:05,694  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+ 2017-08-26 10:59:05,720  INFO RequestMappingHandlerMapping:543 - Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+ 2017-08-26 10:59:05,746  INFO RequestMappingHandlerMapping:543 - Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+ 2017-08-26 10:59:06,088  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2017-08-26 10:59:06,106  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2017-08-26 10:59:33,686  INFO EndpointHandlerMapping:543 - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+ 2017-08-26 10:59:33,698  INFO EndpointHandlerMapping:543 - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:59:33,745  INFO EndpointHandlerMapping:543 - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:59:33,814  INFO EndpointHandlerMapping:543 - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+ 2017-08-26 10:59:33,825  INFO EndpointHandlerMapping:543 - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:59:33,881  INFO EndpointHandlerMapping:543 - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:59:34,039  INFO EndpointHandlerMapping:543 - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:59:34,086  INFO EndpointHandlerMapping:543 - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+ 2017-08-26 10:59:34,133  INFO EndpointHandlerMapping:543 - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:59:34,345  INFO EndpointHandlerMapping:543 - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:59:34,392  INFO EndpointHandlerMapping:543 - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:59:34,441  INFO EndpointHandlerMapping:543 - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 10:59:34,475  INFO EndpointHandlerMapping:543 - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+ 2017-08-26 10:59:46,271  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@457c9034: startup date [Sat Aug 26 10:56:37 CST 2017]; root of context hierarchy
+ 2017-08-26 10:59:50,675  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2017-08-26 10:59:50,681  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2017-08-26 10:59:55,360  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2017-08-26 11:00:24,696  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2017-08-26 11:00:24,777  INFO AnnotationMBeanExporter:912 - Bean with name 'dataSource' has been autodetected for JMX exposure
+ 2017-08-26 11:00:25,663  INFO AnnotationMBeanExporter:667 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+ 2017-08-26 11:00:25,737  INFO EndpointMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2017-08-26 11:00:26,195  INFO DefaultLifecycleProcessor:341 - Starting beans in phase 0
+ 2017-08-26 11:00:26,585  INFO EndpointMBeanExporter:674 - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+ 2017-08-26 11:00:28,147  INFO EndpointMBeanExporter:674 - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+ 2017-08-26 11:00:28,641  INFO EndpointMBeanExporter:674 - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+ 2017-08-26 11:00:29,025  INFO EndpointMBeanExporter:674 - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+ 2017-08-26 11:00:29,442  INFO EndpointMBeanExporter:674 - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+ 2017-08-26 11:00:29,837  INFO EndpointMBeanExporter:674 - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+ 2017-08-26 11:00:30,244  INFO EndpointMBeanExporter:674 - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+ 2017-08-26 11:00:30,637  INFO EndpointMBeanExporter:674 - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+ 2017-08-26 11:00:31,316  INFO EndpointMBeanExporter:674 - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+ 2017-08-26 11:00:31,707  INFO EndpointMBeanExporter:674 - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+ 2017-08-26 11:00:34,051  INFO DocumentationPluginsBootstrapper:84 - Context refreshed
+ 2017-08-26 11:00:34,517  INFO DocumentationPluginsBootstrapper:87 - Found 1 custom documentation plugin(s)
+ 2017-08-26 11:00:35,042  INFO ApiListingReferenceScanner:44 - Scanning for api listing references
+ 2017-08-26 11:00:40,366  INFO TomcatEmbeddedServletContainer:185 - Tomcat started on port(s): 8090 (http)
+ 2017-08-26 11:00:40,895  INFO App:57 - Started App in 243.824 seconds (JVM running for 244.42)
+ 2017-08-26 11:01:11,688  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+ 2017-08-26 11:01:12,890  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 1196 ms
+ 2017-08-26 11:02:10,458  INFO DruidDataSource:669 - {dataSource-1} inited
+ 2017-08-26 11:11:06,042  INFO App:48 - Starting App on 0M4N203YXTY2XHI with PID 6252 (D:\yihecloud\chyUITestData\target\classes started by Administrator in D:\yihecloud\chyUITestData)
+ 2017-08-26 11:11:06,045  INFO App:661 - No active profile set, falling back to default profiles: default
+ 2017-08-26 11:11:06,111  INFO AnnotationConfigEmbeddedWebApplicationContext:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4135c3b: startup date [Sat Aug 26 11:11:06 CST 2017]; root of context hierarchy
+ 2017-08-26 11:11:06,498  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+ 2017-08-26 11:11:08,577  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eb4cf2eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2017-08-26 11:11:09,392  INFO TomcatEmbeddedServletContainer:87 - Tomcat initialized with port(s): 8090 (http)
+ 2017-08-26 11:11:09,547  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 3439 ms
+ 2017-08-26 11:11:09,972  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2017-08-26 11:11:09,979  INFO FilterRegistrationBean:258 - Mapping filter: 'metricsFilter' to: [/*]
+ 2017-08-26 11:11:09,980  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2017-08-26 11:11:09,980  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2017-08-26 11:11:09,981  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2017-08-26 11:11:09,981  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2017-08-26 11:11:09,981  INFO FilterRegistrationBean:258 - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+ 2017-08-26 11:11:09,982  INFO FilterRegistrationBean:258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
+ 2017-08-26 11:11:11,359  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/dal/test],methods=[GET],produces=[application/json]}" onto public java.lang.String chy.ui.testdata.controller.UITestDataControl.getTestdata()
+ 2017-08-26 11:11:11,361  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/dal/update],methods=[PUT],consumes=[application/json],produces=[application/json]}" onto public java.lang.String chy.ui.testdata.controller.UITestDataControl.updateTestdata(chy.ui.testdata.model.Chytestdata)
+ 2017-08-26 11:11:11,362  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/dal/delete],methods=[DELETE]}" onto public java.lang.String chy.ui.testdata.controller.UITestDataControl.deleteTestdata(int)
+ 2017-08-26 11:11:11,364  INFO RequestMappingHandlerMapping:543 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+ 2017-08-26 11:11:11,368  INFO RequestMappingHandlerMapping:543 - Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+ 2017-08-26 11:11:11,370  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+ 2017-08-26 11:11:11,371  INFO RequestMappingHandlerMapping:543 - Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+ 2017-08-26 11:11:11,376  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2017-08-26 11:11:11,377  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2017-08-26 11:11:11,742  INFO EndpointHandlerMapping:543 - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 11:11:11,744  INFO EndpointHandlerMapping:543 - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 11:11:11,746  INFO EndpointHandlerMapping:543 - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+ 2017-08-26 11:11:11,748  INFO EndpointHandlerMapping:543 - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 11:11:11,750  INFO EndpointHandlerMapping:543 - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 11:11:11,751  INFO EndpointHandlerMapping:543 - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 11:11:11,753  INFO EndpointHandlerMapping:543 - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+ 2017-08-26 11:11:11,757  INFO EndpointHandlerMapping:543 - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 11:11:11,759  INFO EndpointHandlerMapping:543 - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+ 2017-08-26 11:11:11,760  INFO EndpointHandlerMapping:543 - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 11:11:11,764  INFO EndpointHandlerMapping:543 - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 11:11:11,766  INFO EndpointHandlerMapping:543 - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+ 2017-08-26 11:11:11,767  INFO EndpointHandlerMapping:543 - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ 2017-08-26 11:11:12,016  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4135c3b: startup date [Sat Aug 26 11:11:06 CST 2017]; root of context hierarchy
+ 2017-08-26 11:11:12,098  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2017-08-26 11:11:12,099  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2017-08-26 11:11:12,155  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2017-08-26 11:11:12,717  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2017-08-26 11:11:12,719  INFO AnnotationMBeanExporter:912 - Bean with name 'dataSource' has been autodetected for JMX exposure
+ 2017-08-26 11:11:12,730  INFO AnnotationMBeanExporter:667 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+ 2017-08-26 11:11:12,732  INFO EndpointMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2017-08-26 11:11:12,739  INFO DefaultLifecycleProcessor:341 - Starting beans in phase 0
+ 2017-08-26 11:11:12,749  INFO EndpointMBeanExporter:674 - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+ 2017-08-26 11:11:12,778  INFO EndpointMBeanExporter:674 - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+ 2017-08-26 11:11:12,786  INFO EndpointMBeanExporter:674 - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+ 2017-08-26 11:11:12,792  INFO EndpointMBeanExporter:674 - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+ 2017-08-26 11:11:12,797  INFO EndpointMBeanExporter:674 - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+ 2017-08-26 11:11:12,802  INFO EndpointMBeanExporter:674 - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+ 2017-08-26 11:11:12,807  INFO EndpointMBeanExporter:674 - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+ 2017-08-26 11:11:12,813  INFO EndpointMBeanExporter:674 - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+ 2017-08-26 11:11:12,824  INFO EndpointMBeanExporter:674 - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+ 2017-08-26 11:11:12,829  INFO EndpointMBeanExporter:674 - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+ 2017-08-26 11:11:12,853  INFO DocumentationPluginsBootstrapper:84 - Context refreshed
+ 2017-08-26 11:11:12,885  INFO DocumentationPluginsBootstrapper:87 - Found 1 custom documentation plugin(s)
+ 2017-08-26 11:11:12,894  INFO ApiListingReferenceScanner:44 - Scanning for api listing references
+ 2017-08-26 11:11:13,124  INFO TomcatEmbeddedServletContainer:185 - Tomcat started on port(s): 8090 (http)
+ 2017-08-26 11:11:13,132  INFO App:57 - Started App in 7.613 seconds (JVM running for 8.086)
+ 2017-08-26 11:11:32,053  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+ 2017-08-26 11:11:32,081  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+ 2017-08-26 11:11:51,707  INFO DruidDataSource:669 - {dataSource-1} inited
+ 
